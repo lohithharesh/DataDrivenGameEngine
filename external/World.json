@@ -1,0 +1,127 @@
+{
+  "BedRoom": {
+    "Type": "Sector",
+    "Value": {
+      "Chair": {
+        "Type": "Entity",
+        "ClassName": "Furniture",
+        "Value": {
+          "Height": {
+            "Type": "Float",
+            "Value": 20.0
+          }
+        }
+      },
+      "ZRuleState": {
+        "Type": "Entity",
+        "ClassName": "Furniture",
+        "Value": {}
+      },
+      "Table": {
+        "Type": "Entity",
+        "ClassName": "Furniture",
+        "Value": {
+          "Height": {
+            "Type": "Float",
+            "Value": 30.0
+          }
+        }
+      }
+    }
+  },
+
+  "Hallway": {
+    "Type": "Sector",
+    "Value": {
+      "Cupboard": {
+        "Type": "Entity",
+        "ClassName": "Furniture",
+        "Value": {
+          "Height": {
+            "Type": "Float",
+            "Value": 40.0
+          },
+          "Safebox": {
+            "Type": "Scope",
+            "Value": {
+              "Money": {
+                "Type": "Integer",
+                "Value": 50
+              }
+            }
+          },
+          "Debugger": {
+            "Type": "Action",
+            "ClassName": "ActionList",
+            "Value": {
+              "Debug1": {
+                "Type": "Action",
+                "ClassName": "DebugAction",
+                "Value": {
+                  "DebugMessage": {
+                    "Type": "String",
+                    "Value": "Debug1"
+                  }
+                }
+              },
+              "Debug2": {
+                "Type": "Action",
+                "ClassName": "DebugAction",
+                "Value": {
+                  "DebugMessage": {
+                    "Type": "String",
+                    "Value": "Debug2"
+                  }
+                }
+              }
+            }
+          },
+          "Creator": {
+            "Type": "Action",
+            "ClassName": "ActionCreateAction",
+            "Value": {
+              "ClassName": {
+                "Type": "String",
+                "Value": "DebugAction"
+              },
+              "InstanceName": {
+                "Type": "String",
+                "Value": "Debug3"
+              }
+            }
+          },
+          "ConditionalAction": {
+            "Type": "Action",
+            "ClassName": "ActionListIf",
+            "Value": {
+              "Condition": {
+                "Type": "Integer",
+                "Value": 1
+              },
+              "ActionIf": {
+                "Type": "ActionIf",
+                "ClassName": "DebugAction",
+                "Value": {
+                  "DebugMessage": {
+                    "Type": "String",
+                    "Value": "Hello, World! If"
+                  }
+                }
+              },
+              "ActionElse": {
+                "Type": "ActionElse",
+                "ClassName": "DebugAction",
+                "Value": {
+                  "DebugMessage": {
+                    "Type": "String",
+                    "Value": "Hello, World! Else"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

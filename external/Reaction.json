@@ -1,0 +1,70 @@
+{
+  "TestReaction": {
+    "Type": "Reaction",
+    "ClassName": "ReactionAttributed",
+    "Value": {
+      "SubType": {
+        "Type": "String",
+        "Value": "TestType"
+      },
+
+      "ReactDebug": {
+        "Type": "Action",
+        "ClassName": "DebugAction",
+        "Value": {
+          "DebugMessage": {
+            "Type": "String",
+            "Value": "Reacting"
+          }
+        }
+      }
+    }
+  },
+
+  "BedRoom": {
+    "Type": "Sector",
+    "Value": {
+      "Chair": {
+        "Type": "Entity",
+        "ClassName": "Furniture",
+        "Value": {
+          "Height": {
+            "Type": "Float",
+            "Value": 20.0
+          }
+        }
+      },
+      "Table": {
+        "Type": "Entity",
+        "ClassName": "Furniture",
+        "Value": {
+          "Height": {
+            "Type": "Float",
+            "Value": 30.0
+          },
+
+          "ActionEventTest": {
+            "Type": "Action",
+            "ClassName": "ActionEvent",
+            "Value": {
+              "SubType": {
+                "Type": "String",
+                "Value": "TestType"
+              },
+              "Delay": {
+                "Type": "Integer",
+                "Value": 0
+              },
+              "ReactionString": {
+                "Type": "String",
+                "Value": "Reacting"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+ 

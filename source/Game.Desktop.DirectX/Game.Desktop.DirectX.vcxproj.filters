@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="program.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="DebugAction.cpp" />
+    <ClCompile Include="Furniture.cpp" />
+    <ClCompile Include="Rendering.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Furniture.h" />
+    <ClInclude Include="DebugAction.h" />
+    <ClInclude Include="Rendering.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="World.json" />
+    <None Include="bin\Debug\Win32\Input.json" />
+    <None Include="bin\Debug\Win32\Level1.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sprites">
+      <UniqueIdentifier>{1916739f-6a20-4507-b86b-0ab2e739e608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Words">
+      <UniqueIdentifier>{9079519d-41fb-4ed8-9f32-6b20384f5b60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Tiles\Baba_character.PNG">
+      <Filter>Sprites</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\FlagTile2.PNG">
+      <Filter>Sprites</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\FloorTile2.PNG">
+      <Filter>Sprites</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\GrassTile2.PNG">
+      <Filter>Sprites</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\Paul_Character2.PNG">
+      <Filter>Sprites</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\RockTile2.PNG">
+      <Filter>Sprites</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\SkullTile2.PNG">
+      <Filter>Sprites</Filter>
+    </Image>
+    <Image Include="Assets\Tiles\WallTile2.PNG">
+      <Filter>Sprites</Filter>
+    </Image>
+    <Image Include="Assets\Words\BabaWord2.PNG">
+      <Filter>Words</Filter>
+    </Image>
+    <Image Include="Assets\Words\BoneWord2.PNG">
+      <Filter>Words</Filter>
+    </Image>
+    <Image Include="Assets\Words\FlagWord2.PNG">
+      <Filter>Words</Filter>
+    </Image>
+    <Image Include="Assets\Words\IsWord2.PNG">
+      <Filter>Words</Filter>
+    </Image>
+    <Image Include="Assets\Words\KillWord2.PNG">
+      <Filter>Words</Filter>
+    </Image>
+    <Image Include="Assets\Words\PushWord2.PNG">
+      <Filter>Words</Filter>
+    </Image>
+    <Image Include="Assets\Words\RockWord2.PNG">
+      <Filter>Words</Filter>
+    </Image>
+    <Image Include="Assets\Words\StopWord2.PNG">
+      <Filter>Words</Filter>
+    </Image>
+    <Image Include="Assets\Words\WallWord2.PNG">
+      <Filter>Words</Filter>
+    </Image>
+    <Image Include="Assets\Words\WinWord2.PNG">
+      <Filter>Words</Filter>
+    </Image>
+    <Image Include="Assets\Words\YouWord2.PNG">
+      <Filter>Words</Filter>
+    </Image>
+    <Image Include="bin\Debug\Win32\Baba.PNG" />
+    <Image Include="bin\Debug\Win32\BABA_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\BONE.PNG" />
+    <Image Include="bin\Debug\Win32\BONE_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\Flag.PNG" />
+    <Image Include="bin\Debug\Win32\FLAG_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\Floor.PNG" />
+    <Image Include="bin\Debug\Win32\Grass.PNG" />
+    <Image Include="bin\Debug\Win32\INVALID.PNG" />
+    <Image Include="bin\Debug\Win32\IS_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\KILL_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\MAX.PNG" />
+    <Image Include="bin\Debug\Win32\Paul.PNG" />
+    <Image Include="bin\Debug\Win32\PUSH_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\Rock.PNG" />
+    <Image Include="bin\Debug\Win32\ROCK_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\Skull.PNG" />
+    <Image Include="bin\Debug\Win32\STOP_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\Wall.PNG" />
+    <Image Include="bin\Debug\Win32\WALL_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\WIN_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\YOU_WORD.PNG" />
+  </ItemGroup>
+</Project>

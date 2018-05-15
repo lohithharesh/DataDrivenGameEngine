@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SListTest.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Foo.cpp" />
+    <ClCompile Include="VectorTest.cpp" />
+    <ClCompile Include="HashMapTest.cpp" />
+    <ClCompile Include="DatumTest.cpp" />
+    <ClCompile Include="ScopeTest.cpp" />
+    <ClCompile Include="AttributedFoo.cpp" />
+    <ClCompile Include="AttributedTest.cpp" />
+    <ClCompile Include="ParsingTest.cpp" />
+    <ClCompile Include="FactoryTest.cpp" />
+    <ClCompile Include="WorldTest.cpp" />
+    <ClCompile Include="Furniture.cpp" />
+    <ClCompile Include="DebugAction.cpp" />
+    <ClCompile Include="EventTest.cpp" />
+    <ClCompile Include="FooSubscriber.cpp" />
+    <ClCompile Include="ReactionTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Foo.h" />
+    <ClInclude Include="AttributedFoo.h" />
+    <ClInclude Include="Furniture.h" />
+    <ClInclude Include="DebugAction.h" />
+    <ClInclude Include="FooSubscriber.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="..\..\external\ScopeClone.json">
+      <Filter>JsonFiles</Filter>
+    </None>
+    <None Include="..\..\external\World.json">
+      <Filter>JsonFiles</Filter>
+    </None>
+    <None Include="..\..\external\Scope.json">
+      <Filter>JsonFiles</Filter>
+    </None>
+    <None Include="..\..\external\Reaction.json">
+      <Filter>JsonFiles</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="JsonFiles">
+      <UniqueIdentifier>{4909677a-3d11-49f5-9f58-958422d6b6f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1416 @@
+{
+  "Object4": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 0, 4 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 13
+      }
+    }
+  },
+  "Object10": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 0, 10 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object21": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 1, 1 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 3
+      }
+    }
+  },
+  "Object22": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 1, 2 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 1
+      }
+    }
+  },
+  "Object23": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 1, 3 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 8
+      }
+    }
+  },
+  "Object24": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 1, 4 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 13
+      }
+    }
+  },
+  "Object30": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 1, 10 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object44": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 2, 4 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 13
+      }
+    }
+  },
+  "Object50": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 2, 10 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object61": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 3, 1 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 5
+      }
+    }
+  },
+  "Object62": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 3, 2 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 1
+      }
+    }
+  },
+  "Object63": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 3, 3 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 9
+      }
+    }
+  },
+  "Object64": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 3, 4 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 13
+      }
+    }
+  },
+  "Object68": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 3, 8 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object69": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 3, 9 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object70": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 3, 10 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object71": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 3, 11 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object72": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 3, 12 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object73": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 3, 13 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object74": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 3, 14 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object75": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 3, 15 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object76": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 3, 16 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object77": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 3, 17 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object84": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 4, 4 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 13
+      }
+    }
+  },
+  "Object88": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 4, 8 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object90": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 4, 10 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object93": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 4, 13 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object97": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 4, 17 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object101": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 5, 1 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 4
+      }
+    }
+  },
+  "Object102": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 5, 2 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 1
+      }
+    }
+  },
+  "Object103": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 5, 3 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 10
+      }
+    }
+  },
+  "Object104": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 5, 4 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 13
+      }
+    }
+  },
+  "Object108": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 5, 8 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object110": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 5, 10 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object115": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 5, 15 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 14
+      }
+    }
+  },
+  "Object117": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 5, 17 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object120": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 6, 0 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 13
+      }
+    }
+  },
+  "Object121": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 6, 1 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 13
+      }
+    }
+  },
+  "Object122": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 6, 2 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 13
+      }
+    }
+  },
+  "Object123": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 6, 3 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 13
+      }
+    }
+  },
+  "Object124": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 6, 4 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 13
+      }
+    }
+  },
+  "Object128": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 6, 8 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object130": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 6, 10 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object133": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 6, 13 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object137": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 6, 17 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object148": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 7, 8 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object150": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 7, 10 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object153": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 7, 13 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object154": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 7, 14 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object155": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 7, 15 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object156": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 7, 16 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object157": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 7, 17 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object164": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 8, 4 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object165": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 8, 5 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object166": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 8, 6 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object167": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 8, 7 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object168": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 8, 8 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object170": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 8, 10 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object171": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 8, 11 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object172": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 8, 12 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object173": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 8, 13 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object184": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 9, 4 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object188": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 9, 8 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object190": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 9, 10 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object191": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 9, 11 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object192": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 9, 12 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object193": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 9, 13 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object194": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 9, 14 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object195": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 9, 15 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object196": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 9, 16 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object197": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 9, 17 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object198": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 9, 18 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object199": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 9, 19 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 15
+      }
+    }
+  },
+  "Object204": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 10, 4 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object206": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 10, 6 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 12
+      }
+    }
+  },
+  "Object213": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 10, 13 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object224": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 11, 4 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object228": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 11, 8 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object233": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 11, 13 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object244": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 12, 4 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object245": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 12, 5 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object246": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 12, 6 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object247": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 12, 7 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object248": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 12, 8 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object253": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 12, 13 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object265": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 13, 5 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 2
+      }
+    }
+  },
+  "Object266": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 13, 6 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 1
+      }
+    }
+  },
+  "Object267": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 13, 7 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 11
+      }
+    }
+  },
+  "Object268": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 13, 8 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object270": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 13, 10 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 6
+      }
+    }
+  },
+  "Object271": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 13, 11 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 1
+      }
+    }
+  },
+  "Object272": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 13, 12 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 8
+      }
+    }
+  },
+  "Object273": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 13, 13 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object288": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 14, 8 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object293": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 14, 13 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object308": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 15, 8 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object309": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 15, 9 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object310": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 15, 10 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object311": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 15, 11 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object312": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 15, 12 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  },
+  "Object313": {
+    "Type": "Entity",
+    "ClassName": "GameObject",
+    "Value": {
+      "Position": {
+        "Type": "Integer",
+        "Value": [ 15, 13 ]
+      },
+      "ObjectType": {
+        "Type": "Integer",
+        "Value": 16
+      }
+    }
+  }
+}

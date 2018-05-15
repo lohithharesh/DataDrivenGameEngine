@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{13DFF846-691B-42F1-B0ED-D3812C5947C2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GameDesktopDirectX</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+    <Import Project="..\Game.Shared\Game.Shared.vcxitems" Label="Shared" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(projectDir)bin\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(projectDir)obj\$(Configuration)\$(Platform)\</IntDir>
+    <IncludePath>$(SolutionDir)..\external\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\external\lib\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(projectDir)bin\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(projectDir)obj\$(Configuration)\$(Platform)\</IntDir>
+    <IncludePath>$(SolutionDir)..\external\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\external\lib\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(projectDir)bin\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(projectDir)obj\$(Configuration)\$(Platform)\</IntDir>
+    <IncludePath>$(SolutionDir)..\external\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\external\lib\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(projectDir)bin\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(projectDir)obj\$(Configuration)\$(Platform)\</IntDir>
+    <IncludePath>$(SolutionDir)..\external\include\;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\external\lib\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\external\include\;$(ProjectDir)..\Library.Shared\;$(ProjectDir)..\Library.Desktop\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <DisableSpecificWarnings>4505;4201;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <AdditionalDependencies>fmod_vc.lib;fmodL_vc.lib;shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>mkdir "$(outdir)JsonFiles"
+mkdir "$(outdir)Sprites"
+mkdir "$(outdir)Audio"
+
+Xcopy /e /y "$(Solutiondir)..\external\Input.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level1.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level2.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level3.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level4.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level5.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level6.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level7.json" "$(outdir)JsonFiles\"
+
+Xcopy /e /y "$(Solutiondir)..\external\fmod.dll" "$(outdir)"
+Xcopy /e /y "$(Solutiondir)..\external\fmod64.dll" "$(outdir)"
+Xcopy /e /y "$(Solutiondir)..\external\fmodL.dll" "$(outdir)"
+Xcopy /e /y "$(Solutiondir)..\external\fmodL64.dll" "$(outdir)"
+
+Xcopy /e /y "$(Solutiondir)..\external\Sprites" "$(outdir)Sprites"
+Xcopy /e /y "$(Solutiondir)..\external\Audio" "$(outdir)Audio"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\external\include\;$(ProjectDir)..\Library.Shared\;$(ProjectDir)..\Library.Desktop\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <DisableSpecificWarnings>4505;4201;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <AdditionalDependencies>fmod64_vc.lib;fmodL64_vc.lib;shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>mkdir "$(outdir)JsonFiles"
+mkdir "$(outdir)Sprites"
+mkdir "$(outdir)Audio"
+
+Xcopy /e /y "$(Solutiondir)..\external\Input.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level1.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level2.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level3.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level4.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level5.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level6.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level7.json" "$(outdir)JsonFiles\"
+
+Xcopy /e /y "$(Solutiondir)..\external\fmod.dll" "$(outdir)"
+Xcopy /e /y "$(Solutiondir)..\external\fmod64.dll" "$(outdir)"
+Xcopy /e /y "$(Solutiondir)..\external\fmodL.dll" "$(outdir)"
+Xcopy /e /y "$(Solutiondir)..\external\fmodL64.dll" "$(outdir)"
+
+Xcopy /e /y "$(Solutiondir)..\external\Sprites" "$(outdir)Sprites"
+Xcopy /e /y "$(Solutiondir)..\external\Audio" "$(outdir)Audio"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\external\include\;$(ProjectDir)..\Library.Shared\;$(ProjectDir)..\Library.Desktop\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <DisableSpecificWarnings>4505;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <AdditionalDependencies>fmod_vc.lib;shlwapi.lib;fmodL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>mkdir "$(outdir)JsonFiles"
+mkdir "$(outdir)Sprites"
+mkdir "$(outdir)Audio"
+
+Xcopy /e /y "$(Solutiondir)..\external\Input.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level1.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level2.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level3.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level4.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level5.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level6.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level7.json" "$(outdir)JsonFiles\"
+
+Xcopy /e /y "$(Solutiondir)..\external\fmod.dll" "$(outdir)"
+Xcopy /e /y "$(Solutiondir)..\external\fmod64.dll" "$(outdir)"
+Xcopy /e /y "$(Solutiondir)..\external\fmodL.dll" "$(outdir)"
+Xcopy /e /y "$(Solutiondir)..\external\fmodL64.dll" "$(outdir)"
+
+Xcopy /e /y "$(Solutiondir)..\external\Sprites" "$(outdir)Sprites"
+Xcopy /e /y "$(Solutiondir)..\external\Audio" "$(outdir)Audio"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\external\include\;$(ProjectDir)..\Library.Shared\;$(ProjectDir)..\Library.Desktop\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <DisableSpecificWarnings>4505;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <AdditionalDependencies>fmod64_vc.lib;fmodL64_vc.lib;shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>mkdir "$(outdir)JsonFiles"
+mkdir "$(outdir)Sprites"
+mkdir "$(outdir)Audio"
+
+Xcopy /e /y "$(Solutiondir)..\external\Input.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level1.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level2.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level3.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level4.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level5.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level6.json" "$(outdir)JsonFiles\"
+Xcopy /e /y "$(Solutiondir)..\external\Level7.json" "$(outdir)JsonFiles\"
+
+Xcopy /e /y "$(Solutiondir)..\external\fmod.dll" "$(outdir)"
+Xcopy /e /y "$(Solutiondir)..\external\fmod64.dll" "$(outdir)"
+Xcopy /e /y "$(Solutiondir)..\external\fmodL.dll" "$(outdir)"
+Xcopy /e /y "$(Solutiondir)..\external\fmodL64.dll" "$(outdir)"
+
+Xcopy /e /y "$(Solutiondir)..\external\Sprites" "$(outdir)Sprites"
+Xcopy /e /y "$(Solutiondir)..\external\Audio" "$(outdir)Audio"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="DebugAction.cpp" />
+    <ClCompile Include="Furniture.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="program.cpp" />
+    <ClCompile Include="Rendering.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Library.Desktop\Library.Desktop.vcxproj">
+      <Project>{a59493b1-a5f2-4660-a7e3-28fad6aadbfb}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DebugAction.h" />
+    <ClInclude Include="Furniture.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Rendering.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Win32\Input.json" />
+    <None Include="bin\Debug\Win32\Level1.json" />
+    <None Include="packages.config" />
+    <None Include="World.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Tiles\Baba_character.PNG" />
+    <Image Include="Assets\Tiles\FlagTile2.PNG" />
+    <Image Include="Assets\Tiles\FloorTile2.PNG" />
+    <Image Include="Assets\Tiles\GrassTile2.PNG" />
+    <Image Include="Assets\Tiles\Paul_Character2.PNG" />
+    <Image Include="Assets\Tiles\RockTile2.PNG" />
+    <Image Include="Assets\Tiles\SkullTile2.PNG" />
+    <Image Include="Assets\Tiles\WallTile2.PNG" />
+    <Image Include="Assets\Words\BabaWord2.PNG" />
+    <Image Include="Assets\Words\BoneWord2.PNG" />
+    <Image Include="Assets\Words\FlagWord2.PNG" />
+    <Image Include="Assets\Words\IsWord2.PNG" />
+    <Image Include="Assets\Words\KillWord2.PNG" />
+    <Image Include="Assets\Words\PushWord2.PNG" />
+    <Image Include="Assets\Words\RockWord2.PNG" />
+    <Image Include="Assets\Words\StopWord2.PNG" />
+    <Image Include="Assets\Words\WallWord2.PNG" />
+    <Image Include="Assets\Words\WinWord2.PNG" />
+    <Image Include="Assets\Words\YouWord2.PNG" />
+    <Image Include="bin\Debug\Win32\Baba.PNG" />
+    <Image Include="bin\Debug\Win32\BABA_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\BONE.PNG" />
+    <Image Include="bin\Debug\Win32\BONE_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\Flag.PNG" />
+    <Image Include="bin\Debug\Win32\FLAG_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\Floor.PNG" />
+    <Image Include="bin\Debug\Win32\Grass.PNG" />
+    <Image Include="bin\Debug\Win32\INVALID.PNG" />
+    <Image Include="bin\Debug\Win32\IS_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\KILL_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\MAX.PNG" />
+    <Image Include="bin\Debug\Win32\Paul.PNG" />
+    <Image Include="bin\Debug\Win32\PUSH_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\Rock.PNG" />
+    <Image Include="bin\Debug\Win32\ROCK_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\Skull.PNG" />
+    <Image Include="bin\Debug\Win32\STOP_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\Wall.PNG" />
+    <Image Include="bin\Debug\Win32\WALL_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\WIN_WORD.PNG" />
+    <Image Include="bin\Debug\Win32\YOU_WORD.PNG" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\..\build\packages\glm.0.9.8.4\build\native\glm.targets" Condition="Exists('..\..\build\packages\glm.0.9.8.4\build\native\glm.targets')" />
+    <Import Project="..\..\build\packages\directxtk_uwp.2018.4.23.1\build\native\directxtk_uwp.targets" Condition="Exists('..\..\build\packages\directxtk_uwp.2018.4.23.1\build\native\directxtk_uwp.targets')" />
+    <Import Project="..\..\build\packages\directxtk_desktop_2015.2018.4.23.1\build\native\directxtk_desktop_2015.targets" Condition="Exists('..\..\build\packages\directxtk_desktop_2015.2018.4.23.1\build\native\directxtk_desktop_2015.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\build\packages\glm.0.9.8.4\build\native\glm.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\build\packages\glm.0.9.8.4\build\native\glm.targets'))" />
+    <Error Condition="!Exists('..\..\build\packages\directxtk_uwp.2018.4.23.1\build\native\directxtk_uwp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\build\packages\directxtk_uwp.2018.4.23.1\build\native\directxtk_uwp.targets'))" />
+    <Error Condition="!Exists('..\..\build\packages\directxtk_desktop_2015.2018.4.23.1\build\native\directxtk_desktop_2015.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\build\packages\directxtk_desktop_2015.2018.4.23.1\build\native\directxtk_desktop_2015.targets'))" />
+  </Target>
+</Project>

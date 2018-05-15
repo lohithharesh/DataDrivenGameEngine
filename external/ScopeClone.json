@@ -1,0 +1,28 @@
+{
+  "Name": {
+    "Type": "String",
+    "Value": "Player1"
+  },
+
+  "Health": {
+    "Type": "Integer",
+    "Value": 200
+  },
+
+  "Location": {
+    "Type": "Vector",
+    "Value": "vec4(1.0, 1.0, 1.0, 1.0)"
+  },
+
+  "Power": {
+    "Name": {
+      "Type": "String",
+      "Value": "Fireball"
+    },
+
+    "Damage": {
+      "Type": "Float",
+      "Value": 2.0
+    }
+  }
+}

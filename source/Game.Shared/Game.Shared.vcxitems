@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{454508e6-947b-4df3-9fc4-bfa30c27fde2}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AudioManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)LevelManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Input.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)InputAction.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)InputReaction.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ResetActionElse.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ResetActionIf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)RuleCheckEntity.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SoundSystem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AudioManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)LevelManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Input.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)InputAction.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)InputReaction.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ResetActionElse.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ResetActionIf.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)RuleCheckEntity.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SoundSystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\..\external\Level1.json" />
+  </ItemGroup>
+</Project>

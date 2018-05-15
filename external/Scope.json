@@ -1,0 +1,41 @@
+{
+  "Name": {
+    "Type": "String",
+    "Value": "Player1"
+  },
+
+  "Health": {
+    "Type": "Integer",
+    "Value": [ 100, 200, 300 ]
+  },
+
+  "Location": {
+    "Type": "Vector",
+    "Value": "vec4(1.0, 1.0, 1.0, 1.0)"
+  },
+
+  "Power": {
+    "Type": "Scope",
+    "Value": {
+      "Name": {
+        "Type": "String",
+        "Value": "Fireball"
+      },
+
+      "Damage": {
+        "Type": "Float",
+        "Value": 10.0
+      },
+
+      "MoreNesting": {
+        "Type": "Scope",
+        "Value": {
+          "Name": {
+            "Type": "String",
+            "Value": "Testing"
+          }
+        }
+      }
+    }
+  }
+}

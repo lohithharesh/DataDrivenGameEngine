@@ -1,0 +1,73 @@
+{
+  "InputReaction": {
+    "Type": "Reaction",
+    "ClassName": "InputReaction",
+    "Value": {
+      "InputAction": {
+        "Type": "Action",
+        "ClassName": "InputAction",
+        "Value": {}
+      }
+    }
+  },
+  "Input": {
+    "Type": "Sector",
+    "Value": {
+      "AARuleState": {
+        "Type": "Entity",
+        "ClassName": "RuleCheckEntity",
+        "Value": {}
+      },
+      "ABInputEntity": {
+        "Type": "Entity",
+        "ClassName": "Input",
+        "Value": {
+          "ConditionalResetAction": {
+            "Type": "Action",
+            "ClassName": "ActionListIf",
+            "Value": {
+              "Condition": {
+                "Type": "Integer",
+                "Value": 0
+              },
+              "ActionIf": {
+                "Type": "ActionIf",
+                "ClassName": "ResetActionIf",
+                "Value": {}
+              },
+              "ActionElse": {
+                "Type": "ActionElse",
+                "ClassName": "ResetActionElse",
+                "Value": {}
+              }
+            }
+          },
+          "MoveUpKey": {
+            "Type": "Integer",
+            "Value": 87
+          },
+          "MoveDownKey": {
+            "Type": "Integer",
+            "Value": 83
+          },
+          "MoveLeftKey": {
+            "Type": "Integer",
+            "Value": 65
+          },
+          "MoveRightKey": {
+            "Type": "Integer",
+            "Value": 68
+          },
+          "ResetKey": {
+            "Type": "Integer",
+            "Value": 82
+          },
+          "UndoKey": {
+            "Type": "Integer",
+            "Value": 90
+          }
+        }
+      }
+    }
+  }
+}
