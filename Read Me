@@ -18,3 +18,91 @@ Learn to adapt and use external libraries (glm, json, DirectX).
 The Library.Shared folder contains most of the engine related code. Game.Shared contains most of the game logic we wrote. The rendering was
 done using DirectX which is in Game.Desktop.Directx. It is a very simple sprite renderer.
 
+Below is the Explanation about the classes in the engine and the order in which you might wanna go through the code if 
+you want it to make sense.
+
+Datum:
+Datum class stores an array of values. The values in a given Datum have a single type – either a primitive type or a user-defined type. 
+The next assignment has you write a class (Scope) which makes tables of those values, with names. Datum will be able to represent
+a reference to a Scope, and so the pair forms a recursive data structure, able to represent arbitrary data structure topologies akin
+to classes in an object-oriented programming language.
+
+Scope:
+Scope objects are tables that create dictionary of name-value pairs where Datum objects are the values. 
+Each entry in a Scope table has a name and a Datum, where the Datum represents an array of values of a single type. 
+Furthermore, an entry in a Scope table can refer to another Scope table and thereby provides the means to create user-defined types 
+which are a Datum type.  So the Datum&Scope classes form a recursive pair: Scopes are tables of Datum, some of which can be other tables
+(i.e. Scopes).  Also, since each Scope has a pointer to its parent, this forms a tree of Scopes. 
+
+Attributed:
+Datum is a class to represent values with a type, and Scope is a class to represent a table of Datum values and their names – plus a 
+pointer to a containing Scope. Since one of the Datum types is a record represented by a Scope, this pair (Datum&Scope) 
+constitutes a recursive data structure that can represent a collection of arbitrary nested objects, equivalent to JSON or XML.
+This simple yet powerful subsystem forms the basis of a computer language. If our goal was to make a scripting language, 
+we would be well on our way.
+Our goal, however, is more specific than just creating YASL (yet another scripting language); we want to bind the data in that 
+language to native data within our game engine. The Datum&Scope variable are therefore often glued directly to classes and objects 
+in the engine’s native language (C++). Those native classes are defined at compile-time. Although our Datum&Scope system allows 
+us to create dynamic data structures at run-time, we often want to express the “schema” at compile-time, to mirror native classes.
+
+JsonParser:
+we need a Parser that translates from XML into a configuration for the game engine. This first part establishes the infrastructure, including the helper interface and the master parser. 
+Next We have ScopeParseHelper which parses a table/scope. 
+
+AbstractFactory:
+Our configuration language allows us to express the intention of creating objects, based on the name of their type. 
+The Abstract Factory design pattern accomplishes this goal. First we will implement a generic form of the Abstract Factory, 
+which is suitable for use with any interface class that has a default constructor.The game engine will use this Factory to 
+create objects by their type name. We will then Fix up a macro to generate concrete factory classes using the name of the class.
+
+Entity:
+“Entity” is just another wrapper for a table (i.e. an Attributed Scope) – with the difference that Entity objects automatically populate
+their tables based on information known at compile time. As much as possible, though, we will try to make the difference between
+Entity and Scope matter only when they are constructed – not how they are used. In particular, they should appear to be quite 
+similar from script.
+
+Sector:
+“Sector” is loosely comparable to the idea of a “package” or “library”, and exists to partition code & data into pieces that we 
+can manage in isolation.  A Sector is another container, but it is one which does not introduce a namespace.  We should be able to 
+move data and processes between Sectors without affecting anything about the data itself. Sectors are, essentially, just files
+that contain descriptions of data. Loading a Sector populates the global Scope with objects, and unloading a Sector removes 
+those same objects from the global Scope – but if we chose to move objects to different files then for the most part we 
+should not have to change the contents or procedures of those objects.
+
+Scope:
+“World” class is Yet Another Container – a container of Sectors. A World defines a global Scope – the Scope that all other objects 
+in the simulation share.
+
+Action:
+Action is akin to a function / behaviour that can modify the properties of the an entity. Actions reside inside entities and their updates
+are called during the entities update. Some specific action types implemented are expressions, if else actions and events. Create action
+and destroy actions are actions that can be added to a json file to delete a particular action that already exists in the game. So if we want
+an action to trigger only once, we can add an delete action along with the action so that it gets deleted after it's executed once.
+This way, we can modify and change things in game through scripts without having to re-compile the game code.
+
+Event:
+We'll now create a templated Event system. This system implements the observer pattern and allows for the publication of events 
+to multiple subscribers. Events carry a templated data “payload” – the message of the event – and can be delivered immediately, 
+or queued for future delivery. 
+
+Reaction:
+So far we have created an engine with a type system for representing data, a factory system for instantiating objects and hierarchies 
+which includes procedures and an event system for passing messages. We need to tie the event system to the rest of the game engine. 
+We will create the final piece of the game engine kernel, which is called a “Reaction". Reactions derive from ActionList and 
+EventSubscriber, hence tie the event system to the rest of the engine.
+Typically, Reaction::Notify (and any Reaction derived class) will invoke ActionList::Update. Depending on the specialization of Reaction,
+Notify might also do additional processing, e.g. to extract arguments from the event and copy them into the Scope of the invoked 
+ActionList.
+
+EventMessageAttributed:
+We will also create a “generic event” which is an event which uses an Attributed class as its message. And we will write an
+Action which creates and sends such events. This mechanism effectively allows you to create event types from script without 
+recompiling code. This also allows you to implement something akin to invoking “function calls” by passing messages from
+one piece of script to another. 
+
+
+
+
+
+
+
