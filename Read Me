@@ -1,0 +1,20 @@
+This is a project i am worked on as a part of my Programming class at FIEA. I made an entity based engine, Where entities can be anything in the game
+like actors in UE4. Custom entities can be added by extending the base entity class and adding other logic to it. These entities can then
+be created and configured by making a Json file. The file is then read during runtime and it loads all the thing. It is a simple engine, which
+I made mainly to learn C++, OOP and some things about how game engines work under the hood. 
+Using this engine as a base, Me and some of my friends made a game called Baba is You. It is a puzzle game. you can find the exe for the game 
+at: https://drive.google.com/open?id=1RIA9j-aSaua8-VIwJ0L1zoCp813PvDky.
+
+Some Things that I am Did as a part of the engine:
+
+Custom containers (hash map, vector, list) closely matching the STL in terms of functionality and design
+Json parser for the user to specify custom objects and functionality easily
+Makes use of C++11 features (move semantics, lambda expressions)
+Event driven system with actions, reactions and event queues.
+A bit of multi threading for the delivering events.
+All branches of code unit-tested.
+Learn to adapt and use external libraries (glm, json, DirectX).
+
+The Library.Shared folder contains most of the engine related code. Game.Shared contains most of the game logic we wrote. The rendering was
+done using DirectX which is in Game.Desktop.Directx. It is a very simple sprite renderer.
+
